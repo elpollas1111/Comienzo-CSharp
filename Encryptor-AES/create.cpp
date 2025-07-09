@@ -33,11 +33,11 @@ void WriteSkidFile(const std::vector<std::string>& files, const std::string& out
         output << content << "\n\n";
     }
 
-    output << "// ERROR: fin de código incompleto...\n";
-    output << "// Falta cerrar función o clase correctamente\n";
+    output << "// ERROR: ...\n";
+    output << "// Faltan cozaz, maldito skid\n";
 
     output.close();
-    MessageBoxA(0, "Archivo ensamblado: MasterSkidEdition.ps1", "¡Hecho!", MB_OK | MB_ICONINFORMATION);
+    MessageBoxA(0, "Archivo ensamblado: MasterSkidEdition.ps1", "Hecho!", MB_OK | MB_ICONINFORMATION);
 }
 
 int main() {
